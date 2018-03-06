@@ -1,0 +1,33 @@
+{
+  "name": "Ympl",
+  "description": " Open Source Continuous Integration & Deployment Server",
+  "keywords": ["strider", "testing", "continuous integration", "deployment"],
+  "buildpacks" : [
+      { "url" : "heroku/nodejs" }
+  ],
+  "scripts" : {
+     "postdeploy" : "bash install.sh"
+  },
+  "success_url" : "/",
+  "env": {
+    "SERVER_NAME": {
+      "description": "A custom buildpack to enable support for multiple languages",
+      "value": "https://strider.herokuapp.com"
+    },
+    "DB_URI": {
+      "description": "MongoDB endpoint for database use.",
+      "value": "mongodb://localhost:27017/strider"
+    },
+    "ACL_ADMIN_PSEUDO": {
+      "description": "A custom buildpack to enable support for multiple languages",
+      "value": "administrator@gmail.com"
+    },
+    "ACL_ADMIN_PASSWD": {
+      "description": "A custom buildpack to enable support for multiple languages",
+      "value": "Testing0"
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
