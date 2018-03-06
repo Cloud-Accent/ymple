@@ -1,12 +1,12 @@
 {
-  "name": "Ympl",
+  "name": "Ymple",
   "description": " Open Source Continuous Integration & Deployment Server",
-  "keywords": ["strider", "testing", "continuous integration", "deployment"],
+  "keywords": ["strider", "shop", "store", "ymple", "ecommerce"],
   "buildpacks" : [
       { "url" : "heroku/nodejs" }
   ],
   "scripts" : {
-     "postdeploy" : "bash install.sh"
+     "postdeploy" : "echo Hello World"
   },
   "success_url" : "/",
   "env": {
