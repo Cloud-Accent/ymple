@@ -2,17 +2,11 @@
 <a href="https://www.ymple.com"><img alt="Ymple Ecommerce" src="https://www.ymple.com/img/colors/blue/logo_big.png" title="Ymple Ecommerce"/></a>
 </h1>
 
+### [Product Page](https://www.ymple.com/) [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-### [Product Page](https://www.ymple.com/)
-
-### [Demo](http://demo.ymple.com/)
+### [Demo](http://demo.ymple.com/) : [Front](https://www.ymple.com/en/screenshot-front/) | [Back](https://www.ymple.com/en/screenshot-back/)
 
 ### [Documentation + Database and Table](http://doc.ymple.com/)
-
-### [Screenshot Frontend](https://www.ymple.com/en/screenshot-front/)
-
-### [Screenshot Backend](https://www.ymple.com/en/screenshot-back/)
-
 
 Open Source Ecommerce Open Source Framework for Everyone built with Sails.js (Node.js + MongoDB)
 
